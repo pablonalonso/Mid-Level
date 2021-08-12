@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body{
+    background-color:rgb(132, 238, 241)
+}
+.grid-container{
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(4, minmax(min-content, max-content));
+    grid-auto-rows: 50px;
+}
+
+.grid-container .grid-item{
+    padding: 10px;
+    border: none;
+    margin: 2px;
+    background-color: rgba(255, 255, 255, 0.541);
+    border-radius: 15px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.grid-container .grid-item:hover{
+    background-color: rgba(255, 255, 255, 0.849);
+}
+
+.confirmar-btn{
+    margin: 20px auto;
+    padding: 12px 20px;
+    border: none;
+    background-color: rgb(253, 255, 113);
+    border-radius: 20px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
+}
+
+.confirmar-btn:hover{
+    background-color: rgb(98, 179, 98);
+    font-weight: 900;
+    color: white;
+}
+
+.semana-elegida{
+    font-family: 'Quicksand', sans-serif;
+}

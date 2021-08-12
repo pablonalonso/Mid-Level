@@ -1,0 +1,8 @@
+Crear un sistema con javascript con el que se pueda:
+-Visualizar los datos de cada alumno.
+-Definir en que semana los alumnos van a rendir.
+
+·La interfaz debe ser agradable y atractiva.
+·Debe contener todos los datos de manera estructurada.
+·Se debe de poder elegir cuando rinde el alumno.
+·Se deben de poder actualizar y/o remplazar los datos de los alumnos.

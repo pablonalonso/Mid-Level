@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(classroom.jpg);
+    background-size: cover;
+}
+
+.background{
+    padding: 2rem;
+    background-color: rgba(255, 255, 255, 0.336);
+    width: 30%;
+    margin: 10vh 130vh;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 4rem;
+    border: 2px solid rgb(255, 244, 124);
+}
+
+form{
+    margin-top: 1rem;
+}
+
+input{
+    font-family:cursive;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    display: block;
+    border: none;
+    margin: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.8rem;
+    background-color: rgba(255, 255, 255, 0.486);
+}
+
+input:hover{
+    background-color: rgb(255, 237, 155);
+    color: black;
+}
+
+input:focus{
+    outline: none;
+    background-color: rgb(253, 255, 164);
+}
+
+input::placeholder{
+    color: rgb(0, 0, 0);
+}
+
+input::placeholder:focus{
+    color: black;
+}
+
+#boton{
+    font-family: 'Rajdhani', sans-serif;
+    color: black;
+    font-weight: 900;
+    background-color: rgb(253, 255, 133);
+    margin: auto;
+    margin-top: 3rem;
+    width: 60%;
+}
+
+#boton:hover{
+    color: white;
+    background-color: rgb(255, 145, 10);
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    color: rgb(0, 0, 0);
+}
+
+h1:hover{
+    color:rgb(255, 242, 53);
+    font-size: 2.1rem;
+}
+
+p{
+    font-family: 'Rajdhani', sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
+

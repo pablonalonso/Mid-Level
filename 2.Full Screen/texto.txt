@@ -1,0 +1,6 @@
+Crear un sistema que muestre al usuario:
+
+-La URL de la pagina.
+-El protocolo.
+-El nombre de dominio.
+-La ruta de la pagina.

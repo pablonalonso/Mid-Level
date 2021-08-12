@@ -1,0 +1,5 @@
+-Crear una mini interfaz para introducir las notas de los alumnos.
+-Validar que no haya errores.
+-Promediar notas con trabajos.
+-Si el promedio es mayor a 7/10.
+Aprobar.
